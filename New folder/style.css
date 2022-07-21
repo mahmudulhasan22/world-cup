@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header-section  */
+
+.header-section{
+    background-color: rgb(49, 49, 49);
+    height: 90vh;
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    border-radius: 30px;
+}
+.header-text{
+    color: white;
+    width: 50%;
+}
+.header-text h1{
+    font-size: 4.5em;
+}
+.header-text p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.header-image img{
+    margin-top: 18px;
+    height: 88vh;
+    width: 100%;
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+.fa-solid{
+    margin-left: 15px;
+}
+
+/* card fixed section  */
+
+
+.side-part{
+    background-color:  rgb(49, 49, 49);;
+    padding: 20px 0; 
+    width: 22%;
+    margin-left: 65px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    position: absolute;
+}
+.side-part-text{
+    text-align: center;
+    padding: 20px 14px;
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.blog-color{
+    background-color: tomato;
+    color: white;
+}
+
+/* blog section */
+
+.blog-section{
+    /* background-color: violet;
+    width: 25%;
+    height: 320px;
+    margin-left: 500px; */
+}
+
+.card-icons{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}

@@ -1,0 +1,128 @@
+/* small device  */
+
+@media only screen and (max-width: 768px) 
+{  
+      .header-section{
+     display: flex;
+     flex-direction: column;
+     margin: 40px 25px;
+}
+    .header-text{
+       text-align: center;
+       margin-left: 10px;
+       padding: 20px 30px;
+    }
+    .header-text h1{
+        font-size: 40px;
+    }
+    .header-text p{
+     
+    }
+    .header-image img{
+        width: 88%;
+    }
+
+    /* side-part */
+    .card-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .side-part{
+        padding: 0;
+        height: 0;
+        
+    }
+    .side-part-text{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 5px 24px;
+        padding: 20px 40px;
+    }
+
+    .blog{
+        margin-top: 250px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-details{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social-media{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .match-grid{
+        margin-top: 250px;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .match-section{
+        margin: 0 30px;
+    }
+}
+
+/* tablet device  */
+
+@media screen and (min-width:769px) and (max-width:1023px){
+    
+    .header-section{
+        margin: 50px 20px;
+        }
+    .header-text{
+        margin-left: 40px;
+    }
+    .header-text h1{
+        font-size: 50px;
+    }
+    .header-image img{
+        width: 83%;
+        margin-left: 50px;
+        margin-top: 142px;
+    }
+    .card-section{
+        margin: 0 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .side-part{
+    
+        margin-top: 40px;
+        height: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .side-part-text{
+        min-width: 180px;
+        border: 1px solid gray;
+        padding: 20px 20px; 
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    
+    .blog{
+        margin-top: 80px;
+        grid-template-columns: repeat(2,1fr);
+    }
+   
+    .match-grid{
+        margin-top: 50px;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .btn-tab{
+        display: block;
+        border-radius: 10px;
+        
+    }
+    .tab-btn{
+        font-size: 25px;
+        text-align: center;
+        margin-left: 15px;
+        
+    }
+    .footer-social-media{
+        margin: 0 220px;
+}
+}
